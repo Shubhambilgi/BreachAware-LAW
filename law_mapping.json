@@ -1,0 +1,22 @@
+{
+  "unauthorized_access": {
+    "IT Act 2000": "Report to CERT-In within 6 hours (as per April 2022 guidelines).",
+    "DPDP Act 2023": "Log and report unauthorized data access to the Data Protection Board."
+  },
+  "phi_leak": {
+    "HIPAA": "Notify affected individuals within 60 days. Log incident and preserve evidence.",
+    "DPDP Act 2023": "Notify Data Protection Board and affected users."
+  },
+  "pii_leak": {
+    "GDPR": "Report to Data Protection Authority within 72 hours.",
+    "DPDP Act 2023": "Notify users and maintain an internal breach record."
+  },
+  "data_exfiltration": {
+    "CERT-In": "Report external data transfers if breach is suspected, within 6 hours.",
+    "GDPR": "Log breach and conduct impact assessment."
+  },
+  "ransomware_attack": {
+    "IT Act 2000": "File a report to CERT-In; preserve logs and system state.",
+    "HIPAA": "Include in the annual breach summary if >500 users affected."
+  }
+}
